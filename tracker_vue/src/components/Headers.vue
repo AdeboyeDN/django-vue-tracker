@@ -1,7 +1,5 @@
 <template>
-
-     <h1>hello world</h1>
-        
+    <h1 class="text-grey-darkest">Todo List</h1>
 </template>
 
 <script>
