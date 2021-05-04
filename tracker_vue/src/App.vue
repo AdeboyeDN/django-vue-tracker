@@ -4,6 +4,7 @@
     <div class="mb-4">
        <Headers />
        <Form />
+       <Task />
     </div>
   </div>
 </div>
@@ -12,14 +13,17 @@
 <script>
 import Headers from '@/components/Headers.vue'
 import Form from '@/components/Form.vue'
+import Task from '@/components/Task.vue'
 
 export default {
   name: 'App',
   components: {
     Headers,
     Form,
+    Task,
   }
 }
+    Task
 </script>
 
 
